@@ -27,5 +27,15 @@ function grade(num) {
 }
 grade();
 
+// grade.js w/ switch statement
+switch (true) {
+  case score == 100: alert("Perfect score!"); break;
+  case score >= 90:  alert("You got an A");   break;
+  case score >= 80:  alert("You got a B");    break;
+  case score >= 70:  alert("You got a C");    break;
+  case score >= 60:  alert("You got a D");    break;
+  default:           alert("Failure.");       break;
+}
+
 // pluralizer.js
 // Take an input like var thing = "cat", var count = "5", and output the pluralized form of the word; "5 cats".
