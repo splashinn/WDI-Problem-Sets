@@ -39,3 +39,12 @@ switch (true) {
 
 // pluralizer.js
 // Take an input like var thing = "cat", var count = "5", and output the pluralized form of the word; "5 cats".
+
+
+// tempConvert.js
+// Convert a temperature from F to C.
+// Output should state NN degrees fahrenheit or NN degrees celsius
+function tempConvert(degree) {
+  var celsius = degree * 9/5 + 32;
+  return (degree + " degrees fahrenheit is equal to " + celsius + " degrees celsius.");
+};
