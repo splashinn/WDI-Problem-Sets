@@ -5,6 +5,16 @@ function reverse(str) {
 };
 reverse("building");
 
+// filterLongestWord.js
+// Pushes longest word into an array.
+function LongestWord(sen) {
+    var sentence = sen.split(" ")
+                    .sort(function(a, b) {
+                        return b.replace(/[^a-zA-Z]/g, "").length - a.replace(/[^a-zA-Z]/g, "").length;
+    });
+    return sentence.shift();
+}
+
 // grade.js
 // Output the following letter grade from a variable w/ a test score.
 // Display A, B, C, D, F for a score that is an integer between 0-100.
