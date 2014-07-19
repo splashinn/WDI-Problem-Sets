@@ -19,6 +19,26 @@ function merge(arr1, arr2) {
 console.log(merge(list1, list2));
 
 
+// merge(arr1, arr2) solution 2
+var list1 = [3, 6, 11];
+var list2 = [2, 4, 5, 8, 9];
+
+function merge(arr1, arr2) {
+  var result = [], indexOne = 0, indexTwo = 0;
+  while (indexOne < arr1.length && indexTwo < arr2.length) {
+   if (arr1[indexOne] <= arr2[indexTwo] ) {
+     result.push(arr1[indexOne]);
+     indexOne++
+    } else {
+     result.push(arr2[indexTwo]);
+     indexTwo++
+    }
+  }
+  return result.concat(arr1.slice(indexOne)).concat(arr2.slice(indexTwo));
+}
+console.log(merge(list1, list2));
+
+
 // letterCount(word)
 // Write a function that takes a string that finds out how many times a character occurs.
 var word = "Kyle and Tina";
