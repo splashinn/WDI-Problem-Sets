@@ -20,8 +20,8 @@ console.log(merge(list1, list2));
 
 
 // merge(arr1, arr2) solution 2
-var list1 = [3, 6, 11];
-var list2 = [2, 4, 5, 8, 9];
+var list1 = [3, 6, 11, 15, 16, 18, 19];
+var list2 = [2, 4, 5, 8, 9, 12, 13, 17, 21];
 
 function merge(arr1, arr2) {
   var result = [], indexOne = 0, indexTwo = 0;
