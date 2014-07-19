@@ -3,6 +3,8 @@
 // splashinn
 
 // merge(arr1, arr2)
+// Write a function called merge. The function should take two sorted arrays of numbers as input and return
+// a merged array of the sorted numbers from the input.
 var list1 = [1, 3, 6, 11, 12, 14, 16, 18, 20];
 var list2 = [2, 4, 5, 7, 8, 9, 10, 13, 15, 17, 19];
 
@@ -18,6 +20,7 @@ console.log(merge(list1, list2));
 
 
 // letterCount(word)
+// Write a function that takes a string that finds out how many times a character occurs.
 var word = "Kyle and Tina";
 
 function letterCount(letters) {
@@ -34,3 +37,7 @@ function letterCount(letters) {
   return result;
 }
 console.log(letterCount(word));
+
+
+// sillySum(arr)
+// Write a function that takes an array of numbers and returns the sum of each number multiplied by its index.
