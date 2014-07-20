@@ -28,10 +28,10 @@ function merge(arr1, arr2) {
   while (indexOne < arr1.length && indexTwo < arr2.length) {
    if (arr1[indexOne] <= arr2[indexTwo] ) {
      result.push(arr1[indexOne]);
-     indexOne++
+     indexOne++;
     } else {
      result.push(arr2[indexTwo]);
-     indexTwo++
+     indexTwo++;
     }
   }
   return result.concat(arr1.slice(indexOne)).concat(arr2.slice(indexTwo));
@@ -44,7 +44,7 @@ console.log(merge(list1, list2));
 var word = "Kyle and Tina";
 
 function letterCount(letters) {
-  var result = {}
+  var result = {};
 
   for(var i = 0; i < letters.length; i++) {
 
