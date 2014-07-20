@@ -2,7 +2,7 @@
 // Write a program that will take a hardcoded string and return a reversed version of it. Use a for loop.
 function reverse(str) {
   return str.split("").reverse().join("");
-};
+}
 reverse("building");
 
 // filterLongestWord.js
@@ -57,4 +57,4 @@ switch (true) {
 function tempConvert(degree) {
   var celsius = degree * 9/5 + 32;
   return (degree + " degrees fahrenheit is equal to " + celsius + " degrees celsius.");
-};
+}
