@@ -31,6 +31,5 @@ function getAnagrams(input) {
             i++;
         }
     }
-
     return anagrams;
 }

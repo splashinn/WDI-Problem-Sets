@@ -4,10 +4,7 @@
 function generateAnagrams(word) {
     if (word.length < 2) {
         return [word];
-    } else {
-        // By declaring all variables outside of the loop,
-        // we improve efficiency, avoiding the needless
-        // declarations each time.       
+    } else {       
         var anagrams = [];
         var before, focus, after;
         var shortWord, subAnagrams, newEntry;
